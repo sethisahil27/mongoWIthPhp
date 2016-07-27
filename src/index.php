@@ -1,6 +1,8 @@
 
 <?php
    // connect to mongodb
+   echo "Hello";
+   
    $m = new MongoClient("mongodb://localhost:27017");
    echo "Connection to database successfully";
 	
